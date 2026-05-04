@@ -162,3 +162,36 @@ header {
     font-size: 1.2rem;
     margin: 15px 0;
 }
+
+.footer {
+    background-color: #466076;
+    height: 220px;
+    width: 100vw;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.logoWapp {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.textlogoFooter {
+    font-size: 2rem;
+    color: #fcfafa;
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+.itemsFooter {
+    color: whitesmoke;
+    border-top: 10px;
+    text-align: left;
+    padding-left: 25px;
+    line-height: 1;
+}
