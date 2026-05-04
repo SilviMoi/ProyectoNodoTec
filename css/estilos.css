@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #02040a;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1.125rem;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 5px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  padding: 0 35px;
+}
+
+h1 {
+  color: #1a02b6;
+  text-align: center;
+  padding-bottom: 27px;
+  padding-top: 60px;
+  font-size: 2.25rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #192c8d;
+  text-align: left;
+  padding-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #115790;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+header img {
+  height: 120px;
+  width: 120px;
+}
+
+.fondoNav {
+  background-color: #115790;
+}
+
+.nav-link {
+  color: aliceblue !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  height: 100%;
+  gap: 40px;
+}
+.nav-link.active {
+  color: #75d6ff !important;
+  font-weight: 600 !important;
+}
+.nav-link:hover {
+  color: #75d6ff !important;
+}
+
+.section {
+  height: 100px;
+  width: 100%;
+}
+
+.subtituloSeccion {
+  color: #192c8d;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.subtituloInicio {
+  text-align: center;
+}
+
+.diferenciales {
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px;
+}
+
+.cardDiferenciales {
+  background-color: #a7d1f1;
+  min-height: 100px;
+  padding: 10px 10px;
+  border: 2px solid #115790;
+  border-radius: 30px;
+}
+.cardDiferenciales h3 {
+  text-align: center;
+  padding-top: 40px;
+}
+.cardDiferenciales p {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 20vw;
+}
+
+.ctaIn {
+  background-image: url(../images/fondoBotones.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+.ctaIn div {
+  display: flex;
+  gap: 20px;
+}
+
+.preg {
+  font-weight: bold;
+  color: #dcdce2;
+}
+
+.btnCTA {
+  background-color: #a6c1ef;
+  color: #000000;
+  font-weight: bold;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */
