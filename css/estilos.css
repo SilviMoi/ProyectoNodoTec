@@ -187,6 +187,35 @@ header img {
   border-radius: 10px;
 }
 
+/*ETIQUETA PROMOCIONES*/
+.h2promo {
+  text-align: center;
+}
+
+.cardPromo {
+  background-color: #b2d3fb;
+  padding: 20px 30px;
+  border-radius: 30px;
+  margin: 30px auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  border: #1a02b6 dashed 2.5px;
+  height: 70%;
+}
+.cardPromo h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #1a02b6;
+  font-size: 1.5rem;
+}
+.cardPromo p {
+  text-align: center;
+  line-height: 1.6;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
 .footer {
   background-color: #466076;
   height: 220px;
