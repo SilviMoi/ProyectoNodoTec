@@ -314,6 +314,15 @@ button[type=submit] {
   color: #115790;
 }
 
+@media (max-width: 576px) {
+  .contacto {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .cardContacto {
+    padding: 20px 15px;
+  }
+}
 .footer {
   background-color: #466076;
   height: 220px;
