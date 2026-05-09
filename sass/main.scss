@@ -315,6 +315,8 @@ button[type="submit"] {
     border-radius: 30px;
     padding: 40px;
     margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .contacto {
@@ -325,6 +327,7 @@ button[type="submit"] {
     line-height: 2.2;
     padding: 0;
     margin-bottom: 5px;
+    display: inline-block;
 
     li {
         display: flex;
