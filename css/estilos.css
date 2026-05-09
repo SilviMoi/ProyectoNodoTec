@@ -94,16 +94,6 @@ header img {
 }
 
 .diferenciales {
-  height: 270px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 15px;
-}
-
-.diferenciales {
-  height: 270px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -200,11 +190,8 @@ header img {
   background-color: #b2d3fb;
   padding: 20px 30px;
   border-radius: 30px;
-  margin: 30px auto;
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin: 15px auto;
   border: #1a02b6 dashed 2.5px;
-  height: 70%;
 }
 .cardPromo h3 {
   text-align: center;
@@ -218,6 +205,11 @@ header img {
   line-height: 1.6;
   padding-bottom: 5px;
   padding-top: 10px;
+}
+@media (min-width: 992px) {
+  .cardPromo {
+    height: 85%;
+  }
 }
 
 /*ETIQUETA PRESUPUESTOS*/
@@ -298,6 +290,7 @@ button[type=submit] {
   display: flex;
   align-items: center;
   gap: 12px;
+  word-break: break-all;
 }
 .contacto i {
   font-size: 1.4rem;
@@ -318,6 +311,14 @@ button[type=submit] {
   width: 60px;
   height: 60px;
   right: 10px;
+}
+@media (max-width: 576px) {
+  .logoWapp {
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 10px;
+  }
 }
 
 .textlogoFooter {
