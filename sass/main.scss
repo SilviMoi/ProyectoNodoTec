@@ -166,6 +166,28 @@ header {
         color: #0e57a4;
     }
 
+    @media (max-width: 576px) {
+    .inicio p {
+        text-align: center;
+    }
+
+    .preg {
+        text-align: center;
+    }
+
+    .btnCTA {
+        text-align: center;
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .ctaIn div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 }
 /*ETIQUETA SERVICIOS*/
 
@@ -316,27 +338,7 @@ button[type="submit"] {
     }
 }
 
-@media (max-width: 576px) {
-    .inicio p {
-        text-align: center;
-    }
 
-    .preg {
-        text-align: center;
-    }
-
-    .btnCTA {
-        text-align: center;
-        display: block;
-        width: 80%;
-        margin: 10px auto;
-    }
-
-    .ctaIn div {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 .footer {
     background-color: #466076;
