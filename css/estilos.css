@@ -162,6 +162,10 @@ header img {
   font-size: 1.2rem;
   margin: 15px 0;
 }
+.btnCTA:hover {
+  background-color: #d8e3f3;
+  color: #0e57a4;
+}
 
 /*ETIQUETA SERVICIOS*/
 .cardServicios {
