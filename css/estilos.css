@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap");
 * {
   margin: 0;
@@ -141,6 +142,7 @@ header img {
   color: #dcdce2;
 }
 
+/*en Sass siempre se usa &:hover cuando está anidado dentro de un selector. El & representa el selector padre, entonces &:hover equivale a .btnCTA:hover*/
 .btnCTA {
   background-color: #a6c1ef;
   color: #000000;
@@ -211,6 +213,10 @@ header img {
   margin: 15px auto;
   border: #1a02b6 dashed 2.5px;
 }
+.cardPromo:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
 .cardPromo h3 {
   text-align: center;
   padding-bottom: 10px;
@@ -278,6 +284,10 @@ button[type=submit] {
   color: aliceblue;
   font-size: 1.2rem;
 }
+button[type=submit]:hover {
+  background-color: #7a94bb;
+  color: #033366;
+}
 
 /*ETIQUETA CONTACTO*/
 .pregcontacto {
@@ -288,13 +298,13 @@ button[type=submit] {
 }
 
 .cardContacto {
-  background-color: #a7d1f1;
   border: 2px solid #115790;
   border-radius: 30px;
   padding: 40px;
   margin-bottom: 60px;
   display: flex;
   justify-content: center;
+  background-color: #a7d1f1;
 }
 
 .contacto {
@@ -312,9 +322,10 @@ button[type=submit] {
   align-items: flex-start;
   gap: 12px;
 }
-.contacto i {
+
+i {
   font-size: 1.4rem;
-  color: #115790;
+  color: #1434d7 !important;
 }
 
 @media (max-width: 576px) {
