@@ -1,0 +1,60 @@
+@use 'variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: variables.$color-texto;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.125rem;
+    font-family: variables.$fuente-principal;
+    padding-bottom: 15px;
+}
+
+body {
+    font-family: variables.$fuente-principal;
+}
+
+main {
+    padding: 0 35px;
+}
+
+h1 {
+    color: variables.$color-primario;
+    text-align: center;
+    padding-bottom: 27px;
+    padding-top: 60px;
+    font-size: 2.25rem;
+    font-family: variables.$fuente-principal;
+    font-weight: bold;
+}
+
+h2 {
+    color: variables.$color-secundario;
+    text-align: left;
+    padding-bottom: 15px;
+    font-family: variables.$fuente-principal;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    color: variables.$color-terciario;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-family: variables.$fuente-principal;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.section {
+    height: 100px;
+    width: 100%;
+}

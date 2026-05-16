@@ -1,0 +1,56 @@
+@use 'variables';
+
+.presupuesto {
+    p {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: variables.$color-secundario;
+    }
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px 20px;
+    line-height: 3;
+}
+
+input[type] {
+    display: block;
+    height: 45px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+label[for] {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0a4575;
+}
+
+textarea {
+    height: 120px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    border: variables.$color-texto solid 2px;
+}
+
+button[type="submit"] {
+    margin: 30px 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: #033c6f;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 1.2rem;
+
+    &:hover {
+        background-color: #7a94bb;
+        color: #033366;
+    }
+}

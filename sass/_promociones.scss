@@ -1,0 +1,37 @@
+@use 'variables';
+
+.h2promo {
+    text-align: center;
+}
+
+.cardPromo {
+    background-color: variables.$color-card-promo;
+    padding: 20px 30px;
+    border-radius: 30px;
+    margin: 15px auto;
+    border: variables.$color-primario dashed 2.5px;
+
+    &:hover {
+        transform: scale(1.03);
+        transition: transform 0.3s ease;
+    }
+
+    h3 {
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: variables.$color-primario;
+        font-size: 1.5rem;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1.6;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+
+    @media (min-width: 992px) {
+        height: 85%;
+    }
+}

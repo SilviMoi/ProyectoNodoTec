@@ -1,0 +1,71 @@
+@use 'variables';
+
+.footer {
+    background-color: variables.$color-footer;
+    width: 100vw;
+    font-size: 1rem;
+    margin-top: 30px;
+    padding: 40px 30px 20px 30px;
+}
+
+.textlogoFooter {
+    font-size: 2rem;
+    color: #fcfafa;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.tituloFooter {
+    color: #a7d1f1;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.itemsFooter {
+    color: whitesmoke;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 0.9rem;
+    padding-bottom: 0;
+}
+
+.mapaFooter {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        color: whitesmoke;
+        line-height: 2;
+        font-size: 0.9rem;
+    }
+
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+
+        &:hover {
+            color: #a7d1f1;
+        }
+    }
+}
+
+.logoWapp {
+    position: fixed;
+    bottom: 40px;
+    width: 60px;
+    height: 60px;
+    right: 10px;
+
+    @media (max-width: 576px) {
+        width: 45px;
+        height: 45px;
+        bottom: 20px;
+        right: 10px;
+    }
+}

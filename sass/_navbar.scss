@@ -1,0 +1,30 @@
+@use 'variables';
+
+header {
+    img {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+.fondoNav {
+    background-color: variables.$color-terciario;
+}
+
+.nav-link {
+    color: aliceblue !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    height: 100%;
+    gap: 40px;
+
+    &.active {
+        color: variables.$color-nav-hover !important;
+        font-weight: 600 !important;
+    }
+
+    &:hover {
+        color: variables.$color-nav-hover !important;
+    }
+}
