@@ -101,7 +101,7 @@ header img {
 }
 
 .cardDiferenciales {
-  background-color: rgba(138, 168, 205, 0.7882352941);
+  background-color: rgba(142, 157, 175, 0.7764705882);
   min-height: 100px;
   padding: 10px;
   border: 2px solid #115790;
@@ -141,7 +141,7 @@ header img {
 }
 
 .btnCTA {
-  background-color: rgba(138, 168, 205, 0.7882352941);
+  background-color: rgba(142, 157, 175, 0.7764705882);
   color: #000000;
   font-weight: bold;
   align-items: center;
@@ -291,13 +291,12 @@ button[type=submit]:hover {
 }
 
 .cardContacto {
-  border: 2px solid #115790;
   border-radius: 30px;
   padding: 40px;
   margin-bottom: 60px;
   display: flex;
   justify-content: center;
-  background-color: rgba(138, 168, 205, 0.7882352941);
+  background-color: rgba(142, 157, 175, 0.7764705882);
 }
 
 .contacto {

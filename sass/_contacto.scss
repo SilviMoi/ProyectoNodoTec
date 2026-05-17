@@ -8,7 +8,6 @@
 }
 
 .cardContacto {
-    border: 2px solid variables.$color-terciario;
     border-radius: 30px;
     padding: 40px;
     margin-bottom: 60px;
@@ -50,6 +49,7 @@ i {
         padding: 20px 20px;
     }
 }
+
 .fondoContacto {
     background-image: url(../images/tableroM.jpg);
     background-size: cover;
