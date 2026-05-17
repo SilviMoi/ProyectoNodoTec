@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap");
+.cardPromo {
+  border-radius: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -101,7 +105,7 @@ header img {
 }
 
 .cardDiferenciales {
-  background-color: rgba(142, 157, 175, 0.7764705882);
+  background-color: rgba(168, 204, 245, 0.8823529412);
   min-height: 100px;
   padding: 10px;
   border: 2px solid #115790;
@@ -119,13 +123,13 @@ header img {
 }
 
 .ctaIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/fondoBotones.jpg);
   background-size: cover;
   background-position: center;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   min-height: 300px;
   padding: 40px 0;
   margin-bottom: 40px;
@@ -141,7 +145,7 @@ header img {
 }
 
 .btnCTA {
-  background-color: rgba(142, 157, 175, 0.7764705882);
+  background-color: rgba(168, 204, 245, 0.8823529412);
   color: #000000;
   font-weight: bold;
   align-items: center;
@@ -204,7 +208,6 @@ header img {
 .cardPromo {
   background-color: #b2d3fb;
   padding: 20px 30px;
-  border-radius: 30px;
   margin: 15px auto;
   border: #1a02b6 dashed 2.5px;
 }
@@ -296,7 +299,7 @@ button[type=submit]:hover {
   margin-bottom: 60px;
   display: flex;
   justify-content: center;
-  background-color: rgba(142, 157, 175, 0.7764705882);
+  background-color: rgba(168, 204, 245, 0.8823529412);
 }
 
 .contacto {

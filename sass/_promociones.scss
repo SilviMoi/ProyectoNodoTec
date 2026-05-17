@@ -5,9 +5,9 @@
 }
 
 .cardPromo {
+    @extend %borde-redondeado;
     background-color: variables.$color-card-promo;
     padding: 20px 30px;
-    border-radius: 30px;
     margin: 15px auto;
     border: variables.$color-primario dashed 2.5px;
 
